@@ -98,7 +98,7 @@ function addTilelay() {
 
     var row = point.x;
     var col = point.y;
-    var url = '//mapsv0.bdimg.com/tile/?udt=' + udtVersion + '&qt=tile&styles=' + tstyle
+    var url = 'http://mapsv0.bdimg.com/tile/?udt=' + udtVersion + '&qt=tile&styles=' + tstyle
       + '&x=' + row + '&y=' + col + '&z=' + level;
     return url;
   }

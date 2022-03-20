@@ -23,7 +23,7 @@ function addLuShu() {
           enableRotation:true,
           landmarkPois:[
             {lng:116.314782,lat:39.913508,html:'加油站',pauseTime:2},
-            {lng:116.315391,lat:39.964429,html:'高速公路收费<div><img src="//map.baidu.com/img/logo-map.gif"/></div>',pauseTime:3},
+            {lng:116.315391,lat:39.964429,html:'高速公路收费<div><img src="http://map.baidu.com/img/logo-map.gif"/></div>',pauseTime:3},
             {lng:116.381476,lat:39.974073,html:'肯德基早餐',pauseTime:2}
           ]});
 

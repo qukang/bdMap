@@ -1022,7 +1022,7 @@ ServerSignature Off
 #     (e.g. users on a 2G connection).
 #
 #     You can test the effects of content transformation applied by
-#     Google's Lite Mode by visiting: https://googleweblight.com/i?u=https://www.example.com
+#     Google's Lite Mode by visiting: https://googleweblight.com/i?u="https://www.example.com
 #
 #     https://support.google.com/webmasters/answer/6211428
 #

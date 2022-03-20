@@ -62,7 +62,7 @@ or a CDN that hosts content that may not be present on every page of your site,
 for example) then you can queue up a domain name to be prefetched.
 
 ```html
-<link rel="dns-prefetch" href="//example.com">
+<link rel="dns-prefetch" href="http://example.com">
 <link rel="dns-prefetch" href="https://ajax.googleapis.com">
 ```
 
@@ -77,7 +77,7 @@ on them ASAP.
 Amazon S3:
 
 ```html
-<link rel="dns-prefetch" href="//s3.amazonaws.com">
+<link rel="dns-prefetch" href="http://s3.amazonaws.com">
 ```
 
 Google APIs:
@@ -89,8 +89,8 @@ Google APIs:
 Microsoft Ajax Content Delivery Network:
 
 ```html
-<link rel="dns-prefetch" href="//ajax.microsoft.com">
-<link rel="dns-prefetch" href="//ajax.aspnetcdn.com">
+<link rel="dns-prefetch" href="http://ajax.microsoft.com">
+<link rel="dns-prefetch" href="http://ajax.aspnetcdn.com">
 ```
 
 ### Further reading about DNS prefetching
@@ -251,8 +251,8 @@ right-click. Each Task goes to the specified URL, and gets its own mini icon
 (essentially a favicon, a 16x16 .ICO). You can add as many of these as you need.
 
 ```html
-<meta name="msapplication-task" content="name=Task 1;action-uri=http://host/Page1.html;icon-uri=http://host/icon1.ico">
-<meta name="msapplication-task" content="name=Task 2;action-uri=http://microsoft.com/Page2.html;icon-uri=http://host/icon2.ico">
+<meta name="msapplication-task" content="name=Task 1;action-uri="http://host/Page1.html;icon-uri="http://host/icon1.ico">
+<meta name="msapplication-task" content="name=Task 2;action-uri="http://microsoft.com/Page2.html;icon-uri="http://host/icon2.ico">
 ```
 
 ### (Windows 8) High quality visuals for Pinned Sites
@@ -281,7 +281,7 @@ schema](https://docs.microsoft.com/en-us/archive/blogs/ie/pinned-sites-in-window
   values](https://docs.microsoft.com/en-us/uwp/schemas/tiles/badgeschema/element-badge)
 
 ```html
-<meta name="msapplication-badge" value="frequency=NUMBER_IN_MINUTES;polling-uri=https://www.example.com/path/to/file.xml">
+<meta name="msapplication-badge" value="frequency=NUMBER_IN_MINUTES;polling-uri="https://www.example.com/path/to/file.xml">
 ```
 
 ## Search
